@@ -1,0 +1,148 @@
+.regWidth{
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.regWidth>div{
+    background: white;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+.regWidth>div>div{
+    display: flex;
+    text-align: center;
+    border-radius: 12px;
+    padding: 24px;
+    justify-content: space-around;
+}
+.regTypeDetail{
+    width: 300px;
+    font-size: 14px;
+    color: #898b8f;
+    margin-bottom: 26px;
+    line-height: 22px;
+}
+.regtypeImg{
+    background: #f1f4ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.regTypeName{
+    margin: 12px 0;
+}
+.regTypeTitle{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.regDetailMr{
+    margin-top: 40px;
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+}
+.regDetailMr>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 25px;
+}
+.regDetailMr>div:first-child>div:first-child{
+    width: 80%;
+}
+.documentInfo{
+    margin-top: 66px;
+    width: 96%;
+}
+.documentInfoIcon{
+    display: inline-block;
+    width: 2px;
+    height: 10px;
+    background: #409EFF;
+    margin-right: 6px;
+}
+.documentInfo>p:first-child{
+    margin-bottom: 30px;
+}
+.tradeInfoBottom{
+    border-bottom: 1px solid #dfdede;
+    padding-bottom: 30px;
+}
+.stepTwoBg{
+    padding-top: 40px;
+}
+.stepShopType>p>span:first-child{
+    color: #85878c;
+    font-size: 14px;
+    display: inline-block;
+    width: 80px;
+}
+.stepShopType>p{
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
+.manageCodeFlex{
+    display: flex;
+}
+.manageCodeFlex button{
+    margin-left: 10px;
+}
+.categoryWidth{
+    width: 100%;
+}
+.afrrimAategory{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 220px;
+}
+.selectActivity{
+    padding-left: 30px;
+    font-size: 14px;
+    color: #666;
+}
+.selectActivity>p{
+    margin-bottom: 14px;
+}
+.examineFlex{
+    background: #f8fbfe;
+    border: 1px solid #b8d7f6;
+    padding: 20px;
+    border-radius: 8px;
+}
+.examineFlex>div:first-child>img{
+    width: 20px;
+    margin-right: 8px;
+}
+.examineFlex>div:first-child{
+    display: flex;
+    align-items: center;
+}
+.examineFlex>div:last-child{
+    color: #666;
+    margin-top: 20px;
+    font-size: 8px;
+}
+.examineMr{
+    margin: 24px 0;
+}
+.examineQualifications{
+    padding: 0 30px;
+    font-size: 14px;
+    color: #666;
+}
+.examineQualifications>p>span:first-child{
+    width: 190px;
+    display: inline-block;
+}
+.examineQualifications>p{
+    margin: 20px 0;
+}
+.examineBottom{
+    border-bottom: 1px solid #dfdede;
+    padding-bottom: 20px;
+}
+.submitExamine{
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}

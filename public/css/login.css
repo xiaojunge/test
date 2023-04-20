@@ -1,0 +1,56 @@
+.wxLoginBg{
+    width: 352px;
+    background: white;
+    border-radius: 8px;
+    float: right;
+    padding: 10px;
+    height: 380px;
+    position: absolute;
+    top: 31%;
+    right: 14%;
+}
+.wxLoginDiv1>img{
+    width: 54px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.loginWxCenter>img{
+    width: 200px;
+}
+.wxLoginDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wxLoginWidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+.loginWxCenter>p{
+    line-height: 28px;
+    color: #55585C;
+    margin-bottom: 16px;
+}
+.loginWxCenter{
+    text-align: center;
+    margin: 40px 0;
+}
+.phoneLoginPad{
+    padding: 10px;
+    text-align: center;
+}
+.phoneLoginPad>p:nth-child(3){
+    color: #85878c;
+    font-size: 12px;
+    margin: 20px 0;
+}
+.phoneInput{
+    margin-bottom: 20px;
+}
+.phoneBtn{
+    width: 100%;
+}
+.switchReg{
+    cursor: pointer;
+    color: #409EFF;
+}

@@ -1,0 +1,59 @@
+.indexNavgation{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.navTabFlex>div:first-child{
+    display: flex;
+
+}
+.navTabFlexTitle{
+    display: flex;
+    align-items: center;
+}
+.navTabName{
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.navTabName>img{
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+.littleNavgation{
+    margin-left: 80px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 96px;
+    padding-top: 18px;
+}
+.navTabBorder{
+    background: #cccccc;
+    width: 1px;
+    height: 306px;
+    position: absolute;
+    top: 0;
+    left: 122px;
+}
+.navTabPOsiton{
+    position: relative;
+    background-color: #fff;
+    border-radius: 16px;
+    color: #252931;
+    padding: 16px;
+    width: 238px;
+}
+.littleNavgationP{
+    cursor: pointer;
+    height: 40px;
+    font-size: 13px;
+    color: #424141;
+    line-height: 40px;
+}
+.navTypeActive{
+    color: #409eff;
+}

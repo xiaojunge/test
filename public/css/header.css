@@ -1,0 +1,108 @@
+
+.headerFlex{
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 68px;
+    position: relative;
+    padding-top: 18px;
+}
+.headerComyImg{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.headerFlex>img{
+    width: 50px;
+}
+.headerComyImg>img{
+    width: 30px;
+    margin-right: 14px;
+}
+.headerUp{
+    position: relative;
+    width: 40px;
+    height: 32px;
+    margin: 0 auto;
+}
+.headerUp::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    transform: rotate(45deg);
+    transition: all .3s;
+}
+
+.headerComyImg:hover .headerUp::after {
+    top: 15px;
+    transform: rotate(225deg);
+}
+.corporation{
+    display: flex;
+    align-items: center;
+}
+.corporation:hover .businessWindow{
+    display: block;
+}
+.headerComyImg:hover .businessWindow{
+    display: block;
+}
+.businessFlex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.businessWindow{
+    z-index: 9999;
+    padding: 14px 36px;
+    background: white;
+    position: absolute;
+    top: 74%;
+    right: 0;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    font-size: 14px;
+    transition: all .5s;
+    display: none;
+}
+.businessFlex>img{
+    width: 26px;
+    height: 26px;
+    margin-right: 8px;
+}
+.countInfoFont{
+    color: #666;
+    margin: 20px 0;
+}
+.countInfowd{
+    display: inline-block;
+    width: 58px;
+    margin-bottom: 12px;
+}
+.countinfo{
+    color: #666;
+    font-size: 13px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.loginOut{
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.countSun{
+    color: #409eff;
+    background: #e7f1ff;
+    padding: 2px 3px;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.countColor{
+    color: #070707;
+}
